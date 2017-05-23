@@ -23,9 +23,10 @@ our $scenario = {
         },
     ],
     datasets => [
-        {name=>'2key'  , args=>{hash=>{map {$_=>1} 1..  2}} },
-        {name=>'10key' , args=>{hash=>{map {$_=>1} 1.. 10}} },
-        {name=>'100key', args=>{hash=>{map {$_=>1} 1..100}} },
+        {name=>'2key'   , args=>{hash=>{map {$_=>1} 1..   2}} },
+        {name=>'10key'  , args=>{hash=>{map {$_=>1} 1..  10}} },
+        {name=>'100key' , args=>{hash=>{map {$_=>1} 1.. 100}} },
+        {name=>'1000key', args=>{hash=>{map {$_=>1} 1..1000}} },
     ],
 };
 
